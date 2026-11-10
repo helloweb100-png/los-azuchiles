@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Jardín de eventos en Ixtapan de la Sal | Los Azuchiles</title>
+  <meta name="description" content="Jardín de eventos en Ixtapan de la Sal para bodas, XV años y empresas: palapa con luces cálidas, alberca, mobiliario vintage, meseros y maestro de ceremonias.">
+  <meta name="theme-color" content="#08182B">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / redes -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_MX">
+  <meta property="og:site_name" content="Los Azuchiles · Jardín de Eventos">
+  <meta property="og:title" content="Los Azuchiles · Jardín de eventos en Ixtapan de la Sal">
+  <meta property="og:description" content="Tu boda, XV años o evento de empresa bajo la sombra de un azuchil: palapa con luces cálidas, alberca y montaje completo.">
+  <meta property="og:image" content="assets/img/og.jpg">
+  <meta property="og:image:alt" content="Palapa con luces cálidas y alberca del jardín de eventos Los Azuchiles al atardecer">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/favicon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Montserrat:wght@300;400;500;600;700&display=swap">
+  <link rel="preload" as="image" href="assets/img/jardin-atardecer.jpg">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- La clase "js" solo existe si hay JavaScript: los estados ocultos de las animaciones dependen de ella -->
+  <script>document.documentElement.classList.add('js');</script>
+  <noscript><style>.loader{display:none !important}</style></noscript>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["LocalBusiness", "EventVenue"],
+    "name": "Los Azuchiles · Jardín de Eventos",
+    "description": "Jardín de eventos en Ixtapan de la Sal para bodas, XV años y eventos de empresa, con palapa, alberca, mobiliario, montaje, meseros y maestro de ceremonias.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ixtapan de la Sal",
+      "addressRegion": "Estado de México",
+      "addressCountry": "MX"
+    },
+    "hasMap": "https://maps.app.goo.gl/xVRHqRosYGdgBXSe9",
+    "areaServed": "Ixtapan de la Sal",
+    "amenityFeature": [
+      { "@type": "LocationFeatureSpecification", "name": "Alberca", "value": true },
+      { "@type": "LocationFeatureSpecification", "name": "Palapa con techo de teja", "value": true },
+      { "@type": "LocationFeatureSpecification", "name": "Áreas verdes", "value": true }
+    ]
+  }
+  </script>
+
+  <script src="script.js" defer></script>
+</head>
+
+<body class="is-loading">
+
+<!-- ======================= ICONOS (sprite SVG) ======================= -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.2A7 7 0 0 1 19 9.8C19 14.8 12 21 12 21z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-wa" viewBox="0 0 24 24"><path d="M4 20l1.4-4.2A8.5 8.5 0 1 1 8.3 18.7L4 20z"/><path d="M9.2 8.8c.2 2.8 2.4 5 5.2 5.8l1.3-1.4-1.9-1-.9.8c-.9-.4-1.700-1.200-2.100-2.100l.8-.9-1-1.900-1.400 1.700z" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-chair" viewBox="0 0 24 24"><path d="M7 3h10l-1 9H8zM5.500 12h13M8 12l-1 9M16 12l1 9M7.500 17h9"/></symbol>
+    <symbol id="i-fork" viewBox="0 0 24 24"><path d="M6 3v6a2 2 0 0 0 4 0V3M8 3v18M17 21V3c-2.200 1.500-3 4-3 8h3"/></symbol>
+    <symbol id="i-mic" viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3M8 21h8"/></symbol>
+    <symbol id="i-wave" viewBox="0 0 24 24"><path d="M3 8c2 0 2-1.500 4.500-1.500S10 8 12 8s2.500-1.500 4.500-1.500S19 8 21 8M3 13c2 0 2-1.500 4.500-1.500S10 13 12 13s2.500-1.500 4.500-1.500S19 13 21 13M3 18c2 0 2-1.500 4.500-1.500S10 18 12 18s2.500-1.500 4.500-1.500S19 18 21 18"/></symbol>
+    <symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.500 10.900c.6.500 1 1.200 1 2.100h5c0-.9.400-1.600 1-2.100A6 6 0 0 0 12 3z"/></symbol>
+    <symbol id="i-tree" viewBox="0 0 24 24"><path d="M12 21v-7M12 14c-4 0-7-2.500-7-6a7 7 0 0 1 14 0c0 3.500-3 6-7 6zM12 14l-3-3M12 12l3-3"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3l1.800 5.200L19 10l-5.200 1.800L12 17l-1.800-5.200L5 10l5.200-1.800z"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+    <symbol id="i-prev" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></symbol>
+    <symbol id="i-next" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></symbol>
+    <symbol id="i-cal" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4"/></symbol>
+  </defs>
+</svg>
+
+<a class="skip" href="#contenido">Saltar al contenido</a>
+
+<!-- ======================= CARGADOR ======================= -->
+<div class="loader" id="loader" role="status" aria-live="polite" aria-label="Cargando el sitio de Los Azuchiles">
+  <div class="loader__curtain loader__curtain--l"></div>
+  <div class="loader__curtain loader__curtain--r"></div>
+  <div class="loader__core">
+    <div class="loader__ring">
+      <svg class="loader__svg" viewBox="0 0 120 120" aria-hidden="true">
+        <circle class="loader__track" cx="60" cy="60" r="56"/>
+        <circle class="loader__bar" cx="60" cy="60" r="56"/>
+      </svg>
+      <ul class="loader__bulbs" aria-hidden="true">
+        <li style="--i:0"></li><li style="--i:1"></li><li style="--i:2"></li><li style="--i:3"></li><li style="--i:4"></li>
+        <li style="--i:5"></li><li style="--i:6"></li><li style="--i:7"></li><li style="--i:8"></li><li style="--i:9"></li>
+        <li style="--i:10"></li><li style="--i:11"></li><li style="--i:12"></li><li style="--i:13"></li><li style="--i:14"></li>
+        <li style="--i:15"></li><li style="--i:16"></li><li style="--i:17"></li><li style="--i:18"></li><li style="--i:19"></li>
+      </ul>
+      <img class="loader__logo" src="assets/logo-sm.webp" width="420" height="280" alt="Logo de Los Azuchiles Jardín de Eventos, Ixtapan de la Sal">
+    </div>
+    <p class="loader__txt">Encendiendo las luces del jardín</p>
+    <p class="loader__pct" aria-hidden="true"><span id="loader-pct">0</span>%</p>
+  </div>
+</div>
+
+<!-- ======================= ENCABEZADO ======================= -->
+<header class="site-header" id="site-header">
+  <div class="bar">
+    <a class="brand" href="#inicio" aria-label="Los Azuchiles, Jardín de Eventos: ir al inicio">
+      <img src="assets/logo-sm.webp" width="420" height="280" alt="Logo de Los Azuchiles Jardín de Eventos">
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Navegación principal">
+      <a href="#jardin" data-nav>El jardín</a>
+      <a href="#momentos" data-nav>Momentos</a>
+      <a href="#servicios" data-nav>Servicios</a>
+      <a href="#montajes" data-nav>Montajes</a>
+      <a href="#galeria" data-nav>Galería</a>
+      <a href="#visita" data-nav>Visítanos</a>
+      <a class="btn btn--glow btn--nav" href="#contacto" data-wa="Hola, quiero conocer el jardín Los Azuchiles y platicar mi evento.">
+        <span>Quiero conocer el jardín</span>
+        <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg>
+      </a>
+    </nav>
+
+    <a class="btn btn--glow btn--bar" href="#contacto" data-wa="Hola, quiero conocer el jardín Los Azuchiles y platicar mi evento.">
+      <span>Quiero conocerlo</span>
+    </a>
+
+    <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="nav" aria-label="Abrir menú">
+      <span></span><span></span>
+    </button>
+  </div>
+  <div class="progress" aria-hidden="true"><i id="progress-bar"></i></div>
+</header>
+
+<main id="contenido">
+
+  <!-- ======================= HERO ======================= -->
+  <section class="hero" id="inicio" aria-labelledby="hero-titulo">
+    <div class="hero__bg" id="hero-bg">
+      <img src="assets/img/jardin-atardecer.jpg" width="1599" height="899" fetchpriority="high" decoding="async"
+           alt="Palapa con luces cálidas y alberca del jardín de eventos Los Azuchiles al atardecer">
+    </div>
+    <div class="hero__shade" aria-hidden="true"></div>
+    <svg class="hero__lights" id="lights" aria-hidden="true" focusable="false"></svg>
+    <canvas class="hero__fx" id="fx" aria-hidden="true"></canvas>
+
+    <div class="container hero__inner" id="hero-inner">
+      <div class="hero__copy">
+        <p class="eyebrow eyebrow--light" data-in style="--d:.05s">
+          <span>Jardín de eventos</span><span class="dot" aria-hidden="true"></span><span>Ixtapan de la Sal</span>
+        </p>
+
+        <h1 id="hero-titulo" class="hero__title">
+          <span class="hl"><span data-in style="--d:.15s">Tu evento,</span></span>
+          <span class="hl"><span data-in style="--d:.28s"><em>bajo la sombra</em></span></span>
+          <span class="hl"><span data-in style="--d:.41s">de un azuchil.</span></span>
+        </h1>
+
+        <p class="hero__lead" data-in style="--d:.55s">
+          Bodas, XV años y celebraciones de empresa en un jardín con palapa de luces cálidas, alberca y mobiliario vintage.
+          Nosotros armamos el montaje; tú solo llegas a celebrar.
+        </p>
+
+        <div class="hero__cta" data-in style="--d:.68s">
+          <a class="btn btn--glow btn--lg" href="#contacto" data-mag
+             data-wa="Hola, estoy listo para apartar la fecha de mi evento en Los Azuchiles.">
+            <span>Estoy listo para apartar mi fecha</span>
+            <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg>
+          </a>
+          <a class="btn btn--ghost btn--lg" href="#momentos">
+            <span>Ver el jardín en acción</span>
+          </a>
+        </div>
+
+        <div class="hero__row" data-in style="--d:.8s">
+          <button class="toggle" id="lights-toggle" type="button" aria-pressed="false">
+            <span class="toggle__knob" aria-hidden="true"></span>
+            <span class="toggle__txt" id="lights-label">Encender las luces</span>
+          </button>
+          <ul class="chips" aria-label="Lo que encontrarás en el jardín">
+            <li>Palapa con luces cálidas</li>
+            <li>Alberca</li>
+            <li>Mobiliario vintage y Tiffany</li>
+            <li>Meseros y maestro de ceremonias</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="stack" id="stack">
+        <figure class="stack__card stack__card--1" style="--k:22;--rot:-7deg">
+          <img src="assets/img/boda-arco.jpg" width="853" height="853" loading="lazy" decoding="async"
+               alt="Novios abrazados bajo un arco de flores en el jardín de Los Azuchiles">
+          <figcaption>Bodas</figcaption>
+        </figure>
+        <figure class="stack__card stack__card--2" style="--k:-30;--rot:5deg">
+          <img src="assets/img/mesa-vintage.jpg" width="1200" height="1600" loading="lazy" decoding="async"
+               alt="Mesa de madera vintage con camino rojo y sillas crossback">
+          <figcaption>Mesas vintage</figcaption>
+        </figure>
+        <figure class="stack__card stack__card--3" style="--k:40;--rot:-3deg">
+          <img src="assets/img/fiesta-noche.jpg" width="1600" height="1200" loading="lazy" decoding="async"
+               alt="Fiesta de noche bajo la palapa con telas blancas y focos cálidos">
+          <figcaption>Noche de fiesta</figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="badge" aria-hidden="true">
+      <svg class="badge__ring" viewBox="0 0 120 120">
+        <defs><path id="badge-path" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs>
+        <text><textPath href="#badge-path" textLength="286" lengthAdjust="spacing">JARDÍN DE EVENTOS · IXTAPAN DE LA SAL · BODAS · XV AÑOS · </textPath></text>
+      </svg>
+      <svg class="i badge__tree"><use href="#i-tree"/></svg>
+    </div>
+
+    <a class="scroll-cue" href="#jardin" aria-label="Bajar al siguiente apartado">
+      <span>Desliza</span><i aria-hidden="true"></i>
+    </a>
+  </section>
+
+  <!-- ======================= CINTA ======================= -->
+  <div class="marquee" aria-label="Qué celebramos en el jardín">
+    <div class="marquee__track">
+      <div class="marquee__group">
+        <span>Bodas</span><svg class="i" aria-hidden="true"><use href="#i-spark"/></svg>
+        <span>XV años</span><svg class="i" aria-hidden="true"><use href="#i-spark"/></svg>
+        <span>Eventos de empresa</span><svg class="i" aria-hidden="true"><use href="#i-spark"/></svg>
+        <span>Mobiliario vintage</span><svg class="i" aria-hidden="true"><use href="#i-spark"/></svg>
+        <span>Sillas Tiffany</span><svg class="i" aria-hidden="true"><use href="#i-spark"/></svg>
+        <span>Alberca</span><svg class="i" aria-hidden="true"><use href="#i-spark"/></svg>
+        <span>Palapa con luces cálidas</span><svg class="i" aria-hidden="true"><use href="#i-spark"/></svg>
+        <span>Meseros</span><svg class="i" aria-hidden="true"><use href="#i-spark"/></svg>
+        <span>Maestro de ceremonias</span><svg class="i" aria-hidden="true"><use href="#i-spark"/></svg>
+      </div>
+      <div class="marquee__group" aria-hidden="true">
+        <span>Bodas</span><svg class="i"><use href="#i-spark"/></svg>
+        <span>XV años</span><svg class="i"><use href="#i-spark"/></svg>
+        <span>Eventos de empresa</span><svg class="i"><use href="#i-spark"/></svg>
+        <span>Mobiliario vintage</span><svg class="i"><use href="#i-spark"/></svg>
+        <span>Sillas Tiffany</span><svg class="i"><use href="#i-spark"/></svg>
+        <span>Alberca</span><svg class="i"><use href="#i-spark"/></svg>
+        <span>Palapa con luces cálidas</span><svg class="i"><use href="#i-spark"/></svg>
+        <span>Meseros</span><svg class="i"><use href="#i-spark"/></svg>
+        <span>Maestro de ceremonias</span><svg class="i"><use href="#i-spark"/></svg>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================= MANIFIESTO ======================= -->
+  <section class="manifesto" id="jardin" aria-labelledby="t-manifiesto">
+    <div class="container">
+      <p class="eyebrow rv"><span>El jardín</span></p>
+      <h2 id="t-manifiesto" class="manifesto__text" data-words>No rentamos un salón cualquiera. Abrimos un jardín con alma, donde la palapa se viste de luz, el agua refleja la fiesta y cada detalle ya está pensado para que tú solo disfrutes.</h2>
+
+      <p class="manifesto__story rv">
+        Este jardín nació del cariño de la gente por el lugar: nos pedían celebrar aquí y hoy es, por completo, un espacio para eventos.
+        <strong>Un espacio en donde los momentos especiales se convierten en recuerdos inolvidables.</strong>
+      </p>
+
+      <ul class="values">
+        <li class="value rv" style="--d:.05s">
+          <span class="value__ic"><svg class="i" aria-hidden="true"><use href="#i-tree"/></svg></span>
+          <h3>Aire libre, con carácter</h3>
+          <p>Jardín, palapa de teja y alberca: un entorno natural que se luce solo en cada foto.</p>
+        </li>
+        <li class="value rv" style="--d:.15s">
+          <span class="value__ic"><svg class="i" aria-hidden="true"><use href="#i-chair"/></svg></span>
+          <h3>Montaje a tu estilo</h3>
+          <p>Mobiliario y montaje listos para el estilo que imaginas: vintage, Tiffany, clásico o tropical.</p>
+        </li>
+        <li class="value rv" style="--d:.25s">
+          <span class="value__ic"><svg class="i" aria-hidden="true"><use href="#i-mic"/></svg></span>
+          <h3>Equipo en el evento</h3>
+          <p>Meseros y maestro de ceremonias para que todo fluya sin que tengas que estar pendiente.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ======================= UN JARDÍN, TRES MOMENTOS ======================= -->
+  <section class="scenes" id="momentos" data-scene="0" aria-labelledby="t-momentos">
+    <div class="scenes__pin">
+      <div class="scenes__sky" aria-hidden="true"><i class="sk0"></i><i class="sk1"></i><i class="sk2"></i></div>
+
+      <div class="container scenes__wrap">
+        <header class="scenes__head">
+          <p class="eyebrow"><span>Un jardín, tres momentos</span></p>
+          <h2 id="t-momentos">De la ceremonia a la última canción</h2>
+        </header>
+
+        <div class="scenes__stage">
+          <article class="scene is-active" data-scene="0">
+            <figure class="scene__fig">
+              <img src="assets/img/boda-arco.jpg" width="853" height="853" loading="lazy" decoding="async"
+                   alt="Novios abrazados bajo un arco de flores y telas blancas, en el pasto del jardín">
+            </figure>
+            <div class="scene__txt">
+              <p class="scene__tag"><span>01</span> Tarde</p>
+              <h3>La ceremonia</h3>
+              <p>Arcos de flores, pasto verde y luz dorada. Un escenario natural para decir «sí» frente a quienes más quieres.</p>
+              <a class="btn btn--primary" href="#contacto" data-wa="Hola, quiero mi boda en el jardín Los Azuchiles. ¿Podemos platicar?">
+                <span>Quiero mi evento así</span><svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="scene" data-scene="1">
+            <figure class="scene__fig">
+              <img src="assets/img/novia-damas.jpg" width="1599" height="899" loading="lazy" decoding="async"
+                   alt="Novia con sus damas de honor en vestidos rojos, con la palapa iluminada y la alberca al fondo">
+            </figure>
+            <div class="scene__txt">
+              <p class="scene__tag"><span>02</span> Atardecer</p>
+              <h3>Retratos y brindis</h3>
+              <p>Baja el sol y se encienden los focos cálidos bajo la palapa. Es la hora de las fotos, los brindis y las mesas listas para recibir a todos.</p>
+              <a class="btn btn--glow" href="#contacto" data-wa="Hola, quiero ver cómo sería mi evento al atardecer en Los Azuchiles.">
+                <span>Quiero ver el jardín al atardecer</span><svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="scene" data-scene="2">
+            <figure class="scene__fig">
+              <img src="assets/img/fiesta-noche.jpg" width="1600" height="1200" loading="lazy" decoding="async"
+                   alt="Fiesta de noche bajo la palapa con telas blancas, focos cálidos e iluminación verde y violeta">
+            </figure>
+            <div class="scene__txt">
+              <p class="scene__tag"><span>03</span> Noche</p>
+              <h3>La fiesta</h3>
+              <p>Música, telas, luces de colores y pista libre. El jardín cambia de piel cuando cae la noche, y no vas a querer que termine.</p>
+              <a class="btn btn--glow" href="#contacto" data-wa="Hola, quiero organizar mi fiesta en Los Azuchiles. ¿Qué fechas tienen?">
+                <span>Quiero mi fiesta aquí</span><svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <div class="scenes__ui" aria-hidden="true">
+          <svg viewBox="0 0 400 74" class="arc" preserveAspectRatio="xMidYMid meet">
+            <path id="arc-path" d="M 20 66 Q 200 -34 380 66" fill="none"/>
+            <circle id="sun" r="8" cx="20" cy="66"/>
+          </svg>
+          <ol class="scenes__labels"><li class="is-on">Tarde</li><li>Atardecer</li><li>Noche</li></ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= LA PALAPA (imagen que se abre) ======================= -->
+  <section class="expand" id="palapa" aria-labelledby="t-palapa">
+    <div class="expand__pin">
+      <p class="expand__ghost" aria-hidden="true">PALAPA</p>
+      <figure class="expand__fig">
+        <img src="assets/img/palapa-telas.jpg" width="1600" height="1200" loading="lazy" decoding="async"
+             alt="Palapa de techo de teja con telas blancas colgadas y mesas redondas con manteles rojos">
+      </figure>
+      <div class="expand__copy">
+        <p class="eyebrow eyebrow--light"><span>La palapa</span></p>
+        <h2 id="t-palapa">Cuando el techo se llena de telas y de luz</h2>
+        <p>Techo de teja, telas al viento y focos cálidos: un salón al aire libre que se siente íntimo, lo armes como lo armes.</p>
+        <a class="btn btn--glow" href="#contacto" data-wa="Hola, quiero la palapa de Los Azuchiles para mi fecha.">
+          <span>Quiero esta palapa para mi fecha</span><svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= SERVICIOS (bento) ======================= -->
+  <section class="services" id="servicios" aria-labelledby="t-servicios">
+    <div class="container">
+      <header class="sec-head">
+        <p class="eyebrow rv"><span>Lo que ofrecemos</span></p>
+        <h2 id="t-servicios" class="rv" style="--d:.08s">Todo lo que tu fecha necesita, en un solo jardín</h2>
+        <p class="sec-head__lead rv" style="--d:.16s">Desde el espacio hasta el último detalle de la mesa. Tú eliges el estilo; nosotros lo hacemos realidad.</p>
+      </header>
+
+      <div class="bento">
+        <article class="bento__item bento__item--wide bento__item--photo rv">
+          <div class="bento__in" data-tilt>
+            <div class="bento__media" data-par="0.12">
+              <img src="assets/img/jardin-atardecer.jpg" width="1599" height="899" loading="lazy" decoding="async"
+                   alt="Jardín con palapa iluminada y alberca al atardecer">
+            </div>
+            <div class="bento__body">
+              <span class="bento__ic"><svg class="i" aria-hidden="true"><use href="#i-tree"/></svg></span>
+              <h3>El jardín y la palapa</h3>
+              <p>Espacio abierto para ceremonia, banquete y baile, con palapa de teja, áreas verdes y luz cálida cuando cae la tarde.</p>
+              <a class="link" href="#contacto" data-wa="Hola, quiero reservar el jardín y la palapa de Los Azuchiles.">Quiero reservar el jardín <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="bento__item bento__item--furn rv" style="--d:.08s">
+          <div class="bento__in" data-tilt>
+            <span class="bento__ic"><svg class="i" aria-hidden="true"><use href="#i-chair"/></svg></span>
+            <h3>Mobiliario para cada estilo</h3>
+            <p>Mesas vintage, sillas crossback, mesas cuadradas y redondas para silla Tiffany, y mesas redondas con silla de plástico forrada con monja y moño.</p>
+            <ul class="tags" aria-label="Opciones de mobiliario">
+              <li>Mesas vintage</li><li>Sillas crossback</li><li>Mesa cuadrada</li><li>Mesa redonda</li><li>Silla Tiffany</li><li>Silla forrada con moño</li>
+            </ul>
+            <a class="link" href="#montajes">Ver estilos de montaje <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+        </article>
+
+        <article class="bento__item rv" style="--d:.04s">
+          <div class="bento__in" data-tilt>
+            <span class="bento__ic"><svg class="i" aria-hidden="true"><use href="#i-spark"/></svg></span>
+            <h3>Montajes a tu medida</h3>
+            <p>Diferentes tipos de montaje para bodas, XV años, eventos de empresa y más. Platícanos tu idea y la armamos.</p>
+            <a class="link" href="#contacto" data-wa="Hola, quiero cotizar un montaje para mi evento en Los Azuchiles.">Cuéntanos tu idea <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+        </article>
+
+        <article class="bento__item rv" style="--d:.12s">
+          <div class="bento__in" data-tilt>
+            <span class="bento__ic"><svg class="i" aria-hidden="true"><use href="#i-fork"/></svg></span>
+            <h3>Meseros</h3>
+            <p>Atención en mesa para que tus invitados se sientan consentidos y tú no tengas que estar pendiente de nada.</p>
+            <a class="link" href="#contacto" data-wa="Hola, quiero incluir meseros en mi evento en Los Azuchiles.">Quiero meseros en mi evento <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+        </article>
+
+        <article class="bento__item rv" style="--d:.2s">
+          <div class="bento__in" data-tilt>
+            <span class="bento__ic"><svg class="i" aria-hidden="true"><use href="#i-mic"/></svg></span>
+            <h3>Maestro de ceremonias</h3>
+            <p>Quien lleva el ritmo del evento: presentaciones, brindis, baile y todos los momentos que no pueden fallar.</p>
+            <a class="link" href="#contacto" data-wa="Hola, quiero un maestro de ceremonias para mi evento en Los Azuchiles.">Quiero a alguien que lleve el ritmo <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+        </article>
+
+        <article class="bento__item bento__item--wide bento__item--pool rv" style="--d:.1s">
+          <div class="bento__in" data-tilt>
+            <div class="bento__media">
+              <img src="assets/img/alberca.jpg" width="667" height="451" loading="lazy" decoding="async"
+                   alt="Alberca del jardín rodeada de palapas de teja y áreas verdes">
+            </div>
+            <div class="bento__body">
+              <span class="bento__ic"><svg class="i" aria-hidden="true"><use href="#i-wave"/></svg></span>
+              <h3>Alberca y áreas verdes</h3>
+              <p>Un plus para que la fiesta no se quede solo en la pista: agua, jardín y rincones para respirar entre brindis y baile.</p>
+              <a class="link" href="#visita">Quiero conocer la alberca <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= ESTILOS DE MONTAJE (scroll horizontal) ======================= -->
+  <section class="hs" id="montajes" aria-labelledby="t-montajes">
+    <div class="hs__pin">
+      <header class="container sec-head sec-head--hs">
+        <p class="eyebrow"><span>Estilos de montaje</span></p>
+        <h2 id="t-montajes">Un montaje para cada historia</h2>
+      </header>
+
+      <div class="hs__track" id="hs-track">
+        <article class="hs__card">
+          <img src="assets/img/mesa-vintage.jpg" width="1200" height="1600" loading="lazy" decoding="async"
+               alt="Mesa de madera vintage con camino de mesa rojo, flores y sillas crossback">
+          <div class="hs__cap"><span class="hs__n">01</span><h3>Vintage rústico</h3><p>Mesas de madera y sillas crossback: calidez, textura y mucha fotografía.</p></div>
+        </article>
+        <article class="hs__card">
+          <img src="assets/img/mesa-tiffany.jpg" width="1200" height="1600" loading="lazy" decoding="async"
+               alt="Mesa cuadrada de madera con sillas Tiffany blancas, servilletas y copas rosas en un jardín">
+          <div class="hs__cap"><span class="hs__n">02</span><h3>Tiffany en blanco</h3><p>Mesa cuadrada o redonda con silla Tiffany. Elegante, y se viste con la paleta que tú elijas.</p></div>
+        </article>
+        <article class="hs__card">
+          <img src="assets/img/mesa-verde.jpg" width="1599" height="899" loading="lazy" decoding="async"
+               alt="Mesa redonda con mantel verde, servilletas, copas y centro de flores blancas en el jardín">
+          <div class="hs__cap"><span class="hs__n">03</span><h3>Verde fresco</h3><p>Mesas redondas con mantel de color y silla forrada con moño: clásico, alegre y muy de jardín.</p></div>
+        </article>
+        <article class="hs__card">
+          <img src="assets/img/mesa-tropical.jpg" width="1080" height="1394" loading="lazy" decoding="async"
+               alt="Mesa con centro de piña con flores, camino verde y collares de colores en un montaje tropical">
+          <div class="hs__cap"><span class="hs__n">04</span><h3>Tropical y colorido</h3><p>Flores en piña, colores vivos y ganas de fiesta para tardes de alberca.</p></div>
+        </article>
+        <article class="hs__card">
+          <img src="assets/img/xv-baile.jpg" width="1080" height="1351" loading="lazy" decoding="async"
+               alt="Quinceañera con un ramo de flores en el escenario, con globos morados y dorados bajo la palapa">
+          <div class="hs__cap"><span class="hs__n">05</span><h3>XV años de cuento</h3><p>Escenario, globos, letras y una entrada inolvidable bajo la palapa.</p></div>
+        </article>
+        <article class="hs__card hs__card--cta">
+          <div class="hs__ctaIn">
+            <svg class="i" aria-hidden="true"><use href="#i-spark"/></svg>
+            <h3>¿Tienes otra idea en mente?</h3>
+            <p>Cuéntanosla. Armamos tu montaje con el mobiliario que tenemos y lo ajustamos a lo que necesitas.</p>
+            <a class="btn btn--glow" href="#contacto" data-wa="Hola, tengo una idea para mi montaje en Los Azuchiles. ¿Podemos platicarla?">
+              <span>Cuéntanos tu idea</span><svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg>
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <div class="hs__meter container" aria-hidden="true"><i id="hs-fill"></i></div>
+    </div>
+  </section>
+
+  <!-- ======================= GALERÍA ======================= -->
+  <section class="gallery" id="galeria" aria-labelledby="t-galeria">
+    <div class="container">
+      <header class="sec-head">
+        <p class="eyebrow rv"><span>Momentos reales</span></p>
+        <h2 id="t-galeria" class="rv" style="--d:.08s">Así se ve cuando la fiesta cobra vida</h2>
+        <p class="sec-head__lead rv" style="--d:.16s">Fotos de montajes y celebraciones de Los Azuchiles. Toca cualquiera para verla en grande.</p>
+      </header>
+    </div>
+
+    <div class="gal" id="gal">
+      <ul class="gal__row" data-dir="l">
+        <li><button type="button" class="gal__item" data-full="assets/img/boda-arco.jpg" data-cap="Boda bajo un arco de flores"><img src="assets/img/boda-arco.jpg" width="853" height="853" loading="lazy" decoding="async" alt="Novios abrazados bajo un arco de flores en el jardín"></button></li>
+        <li><button type="button" class="gal__item" data-full="assets/img/mesa-vintage.jpg" data-cap="Mesa vintage con sillas crossback"><img src="assets/img/mesa-vintage.jpg" width="1200" height="1600" loading="lazy" decoding="async" alt="Mesa vintage con camino rojo y sillas crossback"></button></li>
+        <li><button type="button" class="gal__item" data-full="assets/img/fiesta-noche.jpg" data-cap="Fiesta nocturna bajo la palapa"><img src="assets/img/fiesta-noche.jpg" width="1600" height="1200" loading="lazy" decoding="async" alt="Fiesta nocturna bajo la palapa con telas e iluminación de colores"></button></li>
+        <li><button type="button" class="gal__item" data-full="assets/img/mesa-tropical.jpg" data-cap="Montaje tropical con centro de piña"><img src="assets/img/mesa-tropical.jpg" width="1080" height="1394" loading="lazy" decoding="async" alt="Montaje tropical con centro de piña y flores"></button></li>
+        <li><button type="button" class="gal__item" data-full="assets/img/alberca.jpg" data-cap="La alberca del jardín"><img src="assets/img/alberca.jpg" width="667" height="451" loading="lazy" decoding="async" alt="Alberca del jardín con palapas de teja al fondo"></button></li>
+        <li><button type="button" class="gal__item" data-full="assets/img/mesa-tiffany.jpg" data-cap="Mesa cuadrada con sillas Tiffany"><img src="assets/img/mesa-tiffany.jpg" width="1200" height="1600" loading="lazy" decoding="async" alt="Mesa cuadrada con sillas Tiffany blancas y servilletas rosas"></button></li>
+      </ul>
+      <ul class="gal__row" data-dir="r">
+        <li><button type="button" class="gal__item" data-full="assets/img/novia-damas.jpg" data-cap="Novia y damas junto a la palapa"><img src="assets/img/novia-damas.jpg" width="1599" height="899" loading="lazy" decoding="async" alt="Novia con sus damas de honor junto a la palapa y la alberca"></button></li>
+        <li><button type="button" class="gal__item" data-full="assets/img/mesa-verde.jpg" data-cap="Mesa redonda en verde"><img src="assets/img/mesa-verde.jpg" width="1599" height="899" loading="lazy" decoding="async" alt="Mesa redonda con mantel verde y flores blancas"></button></li>
+        <li><button type="button" class="gal__item" data-full="assets/img/xv-baile.jpg" data-cap="XV años bajo la palapa"><img src="assets/img/xv-baile.jpg" width="1080" height="1351" loading="lazy" decoding="async" alt="Quinceañera con ramo en el escenario con globos morados y dorados"></button></li>
+        <li><button type="button" class="gal__item" data-full="assets/img/palapa-telas.jpg" data-cap="La palapa vestida de telas"><img src="assets/img/palapa-telas.jpg" width="1600" height="1200" loading="lazy" decoding="async" alt="Palapa con telas blancas colgadas y mesas con manteles rojos"></button></li>
+        <li><button type="button" class="gal__item" data-full="assets/img/jardin-atardecer.jpg" data-cap="El jardín al atardecer"><img src="assets/img/jardin-atardecer.jpg" width="1599" height="899" loading="lazy" decoding="async" alt="Palapa iluminada y alberca al atardecer"></button></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ======================= PROCESO ======================= -->
+  <section class="process" id="proceso" aria-labelledby="t-proceso">
+    <div class="container process__grid">
+      <header class="sec-head process__head">
+        <p class="eyebrow rv"><span>Cómo trabajamos</span></p>
+        <h2 id="t-proceso" class="rv" style="--d:.08s">De tu idea a la fiesta, en cuatro pasos</h2>
+        <p class="sec-head__lead rv" style="--d:.16s">Sin trámites eternos: platicamos, conoces el jardín, eliges y celebras.</p>
+        <a class="btn btn--primary rv" style="--d:.24s" href="#contacto" data-wa="Hola, quiero empezar a planear mi evento en Los Azuchiles.">
+          <span>Quiero empezar hoy</span><svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg>
+        </a>
+      </header>
+
+      <ol class="tl" id="tl">
+        <li class="tl__line" aria-hidden="true"></li>
+        <li class="tl__item rv"><span class="tl__n">01</span><h3>Cuéntanos tu celebración</h3><p>Dinos qué tipo de evento tienes en mente, la fecha que imaginas y cuántos invitados esperas.</p></li>
+        <li class="tl__item rv"><span class="tl__n">02</span><h3>Ven a conocer el jardín</h3><p>Agenda una cita y te lo mostramos en persona. Sábados y domingos estamos en el jardín de 11:00 a 18:00.</p></li>
+        <li class="tl__item rv"><span class="tl__n">03</span><h3>Elige tu montaje</h3><p>Escoge el mobiliario, el estilo de mesa, los meseros y el maestro de ceremonias que necesitas y platicamos tu presupuesto.</p></li>
+        <li class="tl__item rv"><span class="tl__n">04</span><h3>Llega y celebra</h3><p>Nosotros nos encargamos del montaje. Tú solo llegas, brindas y disfrutas.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ======================= VISITA / UBICACIÓN ======================= -->
+  <section class="visit" id="visita" aria-labelledby="t-visita">
+    <div class="container visit__grid">
+      <div class="visit__info">
+        <p class="eyebrow rv"><span>Ven a conocernos</span></p>
+        <h2 id="t-visita" class="rv" style="--d:.08s">Recorre el jardín antes de decidir</h2>
+        <p class="sec-head__lead rv" style="--d:.16s">Agenda tu cita el día que prefieras para recorrerlo. Sábados y domingos estamos en el jardín de 11:00 a 18:00.</p>
+
+        <ul class="facts">
+          <li class="fact rv">
+            <svg class="i" aria-hidden="true"><use href="#i-pin"/></svg>
+            <div>
+              <h3>Dónde estamos</h3>
+              <p>Ixtapan de la Sal, Estado de México.</p>
+              <p class="fact__code">Código de ubicación <button type="button" class="copy" id="copy-code" aria-label="Copiar el código de ubicación R8H3+6P"><b>R8H3+6P</b><svg class="i" aria-hidden="true"><use href="#i-copy"/></svg></button></p>
+            </div>
+          </li>
+          <li class="fact rv" style="--d:.08s">
+            <svg class="i" aria-hidden="true"><use href="#i-clock"/></svg>
+            <div>
+              <h3>Atención por celular</h3>
+              <p>De 8:00 a 20:00.</p>
+            </div>
+          </li>
+          <li class="fact rv" style="--d:.16s">
+            <svg class="i" aria-hidden="true"><use href="#i-cal"/></svg>
+            <div>
+              <h3>Visitas al jardín</h3>
+              <p>Sábados y domingos de 11:00 a 18:00. Otros días, con cita previa.</p>
+            </div>
+          </li>
+        </ul>
+
+        <div class="visit__cta rv">
+          <a class="btn btn--primary" href="https://maps.app.goo.gl/xVRHqRosYGdgBXSe9" target="_blank" rel="noopener noreferrer">
+            <span>Cómo llegar al jardín</span><svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg>
+          </a>
+          <a class="btn btn--outline" href="#contacto" data-wa="Hola, quiero agendar una visita al jardín Los Azuchiles.">
+            <span>Quiero agendar mi visita</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="visit__map rv rv--z" style="--d:.1s">
+        <iframe title="Mapa: Los Azuchiles, Jardín de Eventos, Ixtapan de la Sal" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                src="https://maps.google.com/maps?q=R8H3%2B6P%20Ixtapan%20de%20la%20Sal&amp;z=16&amp;output=embed"></iframe>
+        <div class="visit__tag" aria-hidden="true"><svg class="i"><use href="#i-pin"/></svg> Ixtapan de la Sal</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= CONTACTO ======================= -->
+  <section class="contact" id="contacto" aria-labelledby="t-contacto">
+    <div class="fireflies" aria-hidden="true">
+      <i style="--x:8%;--y:20%;--t:9s;--dl:0s;--dx:30px;--dy:-50px"></i><i style="--x:22%;--y:70%;--t:12s;--dl:1s;--dx:-20px;--dy:-70px"></i>
+      <i style="--x:35%;--y:30%;--t:10s;--dl:2s;--dx:40px;--dy:-30px"></i><i style="--x:48%;--y:82%;--t:13s;--dl:.5s;--dx:-30px;--dy:-60px"></i>
+      <i style="--x:60%;--y:18%;--t:11s;--dl:3s;--dx:25px;--dy:-45px"></i><i style="--x:72%;--y:64%;--t:9s;--dl:1.5s;--dx:-35px;--dy:-55px"></i>
+      <i style="--x:84%;--y:28%;--t:14s;--dl:2.5s;--dx:20px;--dy:-65px"></i><i style="--x:92%;--y:78%;--t:10s;--dl:.8s;--dx:-25px;--dy:-40px"></i>
+      <i style="--x:14%;--y:50%;--t:12s;--dl:4s;--dx:35px;--dy:-50px"></i><i style="--x:54%;--y:48%;--t:15s;--dl:3.5s;--dx:-30px;--dy:-60px"></i>
+    </div>
+
+    <div class="container contact__grid">
+      <div class="contact__copy">
+        <p class="eyebrow eyebrow--light rv"><span>Apartemos tu fecha</span></p>
+        <h2 id="t-contacto" class="rv" style="--d:.08s">Cuéntanos cómo imaginas tu celebración</h2>
+        <p class="contact__lead rv" style="--d:.16s">Llena estos datos y armamos tu solicitud. Sin compromiso: primero platicamos, conoces el jardín y después decides.</p>
+        <p class="contact__lead contact__wa-note rv" style="--d:.2s" id="wa-note" hidden>Al enviar, se abre WhatsApp con tu mensaje listo para mandarlo.</p>
+        <ul class="contact__list rv" style="--d:.24s">
+          <li><svg class="i" aria-hidden="true"><use href="#i-clock"/></svg> Atención por celular: 8:00 a 20:00</li>
+          <li><svg class="i" aria-hidden="true"><use href="#i-cal"/></svg> Visitas: sábados y domingos, 11:00 a 18:00</li>
+          <li><svg class="i" aria-hidden="true"><use href="#i-pin"/></svg> Ixtapan de la Sal · <a href="https://maps.app.goo.gl/xVRHqRosYGdgBXSe9" target="_blank" rel="noopener noreferrer">Ver en el mapa</a></li>
+        </ul>
+      </div>
+
+      <form class="form rv rv--z" id="form" style="--d:.1s" novalidate>
+        <div class="form__grid">
+          <label class="field">
+            <span>Tu nombre</span>
+            <input type="text" name="nombre" id="f-nombre" autocomplete="name" required placeholder="¿Cómo te llamas?">
+          </label>
+          <label class="field">
+            <span>Tipo de evento</span>
+            <select name="tipo" id="f-tipo" required>
+              <option value="" disabled selected>Elige una opción</option>
+              <option>Boda</option>
+              <option>XV años</option>
+              <option>Evento de empresa</option>
+              <option>Cumpleaños</option>
+              <option>Otra celebración</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Fecha que imaginas</span>
+            <input type="date" name="fecha" id="f-fecha">
+          </label>
+          <label class="field">
+            <span>Invitados aproximados</span>
+            <input type="number" name="invitados" id="f-invitados" min="1" inputmode="numeric" placeholder="Ej. 120">
+          </label>
+        </div>
+
+        <fieldset class="chips-field">
+          <legend>¿Qué te interesa?</legend>
+          <label><input type="checkbox" name="interes" value="Mobiliario vintage"><span>Mobiliario vintage</span></label>
+          <label><input type="checkbox" name="interes" value="Sillas Tiffany"><span>Sillas Tiffany</span></label>
+          <label><input type="checkbox" name="interes" value="Meseros"><span>Meseros</span></label>
+          <label><input type="checkbox" name="interes" value="Maestro de ceremonias"><span>Maestro de ceremonias</span></label>
+          <label><input type="checkbox" name="interes" value="Alberca"><span>Alberca</span></label>
+        </fieldset>
+
+        <label class="field">
+          <span>Cuéntanos más (opcional)</span>
+          <textarea name="mensaje" id="f-mensaje" rows="3" placeholder="Estilo de mesa, colores, ideas…"></textarea>
+        </label>
+
+        <button class="btn btn--glow btn--lg btn--block" type="submit" id="form-submit" data-mag>
+          <svg class="i" aria-hidden="true" id="form-ic"><use href="#i-wa"/></svg>
+          <span id="form-label">Quiero apartar mi fecha</span>
+        </button>
+        <p class="form__err" id="form-err" role="alert" hidden></p>
+
+        <div class="form__result" id="form-result" hidden aria-live="polite">
+          <p class="form__result-title"><svg class="i" aria-hidden="true"><use href="#i-check"/></svg> Tu solicitud está lista</p>
+          <pre id="form-text"></pre>
+          <div class="form__result-actions">
+            <button type="button" class="btn btn--outline btn--sm" id="form-copy"><svg class="i" aria-hidden="true"><use href="#i-copy"/></svg><span>Copiar mi solicitud</span></button>
+            <a class="btn btn--primary btn--sm" href="https://maps.app.goo.gl/xVRHqRosYGdgBXSe9" target="_blank" rel="noopener noreferrer"><span>Ver cómo llegar</span></a>
+          </div>
+          <p class="form__result-note">Compártela con nosotros o ven a conocer el jardín: sábados y domingos de 11:00 a 18:00.</p>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<!-- ======================= PIE ======================= -->
+<footer class="footer">
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <img src="assets/logo-sm.webp" width="420" height="280" loading="lazy" decoding="async" alt="Logo de Los Azuchiles Jardín de Eventos, Ixtapan de la Sal">
+      <p>Un espacio en donde los momentos especiales se convierten en recuerdos inolvidables.</p>
+    </div>
+    <nav class="footer__nav" aria-label="Pie de página">
+      <h2>Explora</h2>
+      <a href="#jardin">El jardín</a>
+      <a href="#momentos">Momentos</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#montajes">Estilos de montaje</a>
+      <a href="#galeria">Galería</a>
+      <a href="#visita">Visítanos</a>
+    </nav>
+    <div class="footer__info">
+      <h2>Visítanos</h2>
+      <p>Ixtapan de la Sal, Estado de México</p>
+      <p>Atención por celular: 8:00 a 20:00</p>
+      <p>Jardín: sábados y domingos, 11:00 a 18:00</p>
+      <p>En Facebook: «Jardín de Eventos: Los Azuchiles»</p>
+      <a class="btn btn--glow btn--sm" href="#contacto" data-wa="Hola, quiero información para mi evento en Los Azuchiles.">
+        <span>Estoy listo para platicar mi evento</span>
+      </a>
+    </div>
+  </div>
+  <div class="container footer__legal">
+    <p>© 2026 Los Azuchiles — Jardín de Eventos · Ixtapan de la Sal</p>
+    <a href="#inicio">Volver arriba ↑</a>
+  </div>
+</footer>
+
+<!-- Botón flotante: WhatsApp si hay número; si no, atajo a la visita -->
+<a class="fab" id="fab" href="#contacto" hidden aria-label="Escríbenos por WhatsApp">
+  <svg class="i" aria-hidden="true"><use href="#i-wa"/></svg>
+  <span id="fab-label">Escríbenos</span>
+</a>
+
+<!-- Visor de fotos -->
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Visor de fotos" hidden>
+  <button class="lb__x" type="button" id="lb-close" aria-label="Cerrar visor"><svg class="i" aria-hidden="true"><use href="#i-close"/></svg></button>
+  <button class="lb__nav lb__nav--prev" type="button" id="lb-prev" aria-label="Foto anterior"><svg class="i" aria-hidden="true"><use href="#i-prev"/></svg></button>
+  <figure class="lb__fig">
+    <img id="lb-img" alt="" src="">
+    <figcaption id="lb-cap"></figcaption>
+  </figure>
+  <button class="lb__nav lb__nav--next" type="button" id="lb-next" aria-label="Foto siguiente"><svg class="i" aria-hidden="true"><use href="#i-next"/></svg></button>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+</body>
+</html>
