@@ -671,6 +671,7 @@ h1, h2, h3 { font-family: var(--f-display); font-weight: 500; line-height: 1.04;
 .fact > .i { width: 1.6rem; height: 1.6rem; margin-top: .15rem; color: var(--azul); }
 .fact h3 { font: 700 .74rem/1.2 var(--f-ui); letter-spacing: .18em; text-transform: uppercase; color: var(--tinta); margin-bottom: .35rem; }
 .fact p { color: var(--tinta-2); font-size: .96rem; }
+.fact a[href^="tel:"] { color: var(--azul); font-weight: 600; }
 .fact__photo { margin-top: .9rem; }
 .fact__photo img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 12px; }
 .fact__photo figcaption { margin-top: .5rem; font: 600 .68rem/1.2 var(--f-ui); letter-spacing: .14em; text-transform: uppercase; color: var(--tinta-2); }

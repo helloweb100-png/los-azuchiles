@@ -13,7 +13,7 @@
      Mientras esté vacío, el botón flotante de WhatsApp y el envío por
      WhatsApp se ocultan, y el formulario arma una solicitud que se puede copiar.
      ------------------------------------------------------------------------ */
-  const WHATSAPP_NUMERO = '';
+  const WHATSAPP_NUMERO = '7226749103';
 
   const WA_TEXTO_BASE = 'Hola, me gustaría información sobre el jardín Los Azuchiles para mi evento.';
   const CODIGO_UBICACION = 'R8H3+6P';
