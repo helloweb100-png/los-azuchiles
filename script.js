@@ -658,15 +658,15 @@
       if (opener && opener.focus) opener.focus();
     };
 
-    const gal = $('#gal');
-    if (gal) {
-      gal.addEventListener('click', (e) => {
+    // La galería y el bloque de loza abren el mismo visor
+    $$('#gal, #loza').forEach((zona) => {
+      zona.addEventListener('click', (e) => {
         const b = e.target.closest('.gal__item');
         if (!b) return;
         const i = list.findIndex((it) => it.src === b.dataset.full);
         open(i < 0 ? 0 : i, b);
       });
-    }
+    });
     btnClose.addEventListener('click', close);
     btnPrev.addEventListener('click', () => show(idx - 1));
     btnNext.addEventListener('click', () => show(idx + 1));

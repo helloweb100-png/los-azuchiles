@@ -625,6 +625,21 @@ h1, h2, h3 { font-family: var(--f-display); font-weight: 500; line-height: 1.04;
 .gal:hover .gal__row.is-run { animation-play-state: paused; }
 @media (min-width: 900px) { .gal__row { --gh: clamp(240px, 24vw, 330px); } .gal { gap: 1.2rem; } }
 
+/* ---------- Loza y mesa servida (reutiliza .gal__item para el visor y el "Ver en grande") ---------- */
+.loza { padding: 6.5rem 0 5.5rem; background: var(--crema); overflow: hidden; overflow: clip; }
+.loza .sec-head { margin-bottom: 2.2rem; }
+.loza .sec-head .btn { margin-top: 1.6rem; }
+.loza__grid { display: flex; gap: 1rem; padding: .4rem var(--pad) 1.2rem; overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding-inline: var(--pad); scrollbar-width: thin; scrollbar-color: rgba(18, 37, 58, .3) transparent; }
+.loza__grid li { flex: 0 0 min(62vw, 260px); scroll-snap-align: start; }
+.loza .gal__item { width: 100%; height: auto; aspect-ratio: 610 / 1074; box-shadow: 0 22px 40px -28px rgba(18, 37, 58, .55); }
+.loza .gal__item img { width: 100%; height: 100%; }
+.loza__sub { margin: 2.6rem 0 1rem; font-size: clamp(1.8rem, 5vw, 2.6rem); }
+.loza__grid--menaje .gal__item { aspect-ratio: 2 / 3; }
+@media (min-width: 1000px) {
+  .loza__grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1.2rem; width: min(100% - 2 * var(--pad), var(--max)); margin-inline: auto; padding: 0; overflow: visible; }
+  .loza__grid li { flex: none; }
+}
+
 /* ---------- Proceso ---------- */
 .process { padding: 6.5rem 0; background: var(--crema); }
 .process__grid { display: grid; gap: 3rem; }
@@ -653,6 +668,9 @@ h1, h2, h3 { font-family: var(--f-display); font-weight: 500; line-height: 1.04;
 .fact > .i { width: 1.6rem; height: 1.6rem; margin-top: .15rem; color: var(--azul); }
 .fact h3 { font: 700 .74rem/1.2 var(--f-ui); letter-spacing: .18em; text-transform: uppercase; color: var(--tinta); margin-bottom: .35rem; }
 .fact p { color: var(--tinta-2); font-size: .96rem; }
+.fact__photo { margin-top: .9rem; }
+.fact__photo img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 12px; }
+.fact__photo figcaption { margin-top: .5rem; font: 600 .68rem/1.2 var(--f-ui); letter-spacing: .14em; text-transform: uppercase; color: var(--tinta-2); }
 .fact__code { margin-top: .5rem; display: flex; flex-wrap: wrap; align-items: center; gap: .6rem; }
 .copy { display: inline-flex; align-items: center; gap: .55rem; padding: .3rem .85rem; border: 1px dashed var(--azul); border-radius: 99px; background: #fff; color: var(--azul); cursor: pointer; min-height: 36px; }
 .copy b { font-weight: 700; letter-spacing: .1em; }
