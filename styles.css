@@ -559,6 +559,10 @@ h1, h2, h3 { font-family: var(--f-display); font-weight: 500; line-height: 1.04;
 .tags { display: flex; flex-wrap: wrap; gap: .45rem; margin-top: 1.3rem; }
 .tags li { padding: .42rem .85rem; border-radius: 999px; border: 1px solid rgba(244, 181, 166, .8); background: var(--rosa-2); color: var(--azul); font: 600 .7rem/1.2 var(--f-ui); letter-spacing: .04em; }
 
+/* Tarjetas de banquete, temática y más servicios: el enlace va al fondo para que las tres queden alineadas */
+.bento__item--svc .bento__in { display: flex; flex-direction: column; }
+.bento__item--svc .link { margin-top: auto; padding-top: 1.3rem; }
+
 @media (min-width: 720px) {
   .bento { grid-template-columns: repeat(2, 1fr); }
   .bento__item--wide { grid-column: 1 / -1; }
