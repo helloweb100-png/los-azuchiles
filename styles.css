@@ -635,9 +635,12 @@ h1, h2, h3 { font-family: var(--f-display); font-weight: 500; line-height: 1.04;
 .loza .gal__item img { width: 100%; height: 100%; }
 .loza__sub { margin: 2.6rem 0 1rem; font-size: clamp(1.8rem, 5vw, 2.6rem); }
 .loza__grid--menaje .gal__item { aspect-ratio: 2 / 3; }
+.loza__grid--negro li { flex-basis: min(80vw, 340px); }
+.loza__grid--negro .gal__item { aspect-ratio: 3 / 2; }
 @media (min-width: 1000px) {
   .loza__grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1.2rem; width: min(100% - 2 * var(--pad), var(--max)); margin-inline: auto; padding: 0; overflow: visible; }
   .loza__grid li { flex: none; }
+  .loza__grid--negro { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 }
 
 /* ---------- Proceso ---------- */
